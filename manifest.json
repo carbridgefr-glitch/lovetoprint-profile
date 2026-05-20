@@ -1,0 +1,21 @@
+{
+  "name": "LoveToPrint Digital Card",
+  "short_name": "LoveToPrint",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f1f1f",
+  "icons": [
+    {
+      "src": "lovetoprint-logo.png.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "lovetoprint-logo.png.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
