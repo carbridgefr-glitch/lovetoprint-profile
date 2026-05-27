@@ -446,6 +446,62 @@
       stroke-linejoin: round;
     }
 
+    .qr-section {
+      padding: 0 18px 24px;
+    }
+
+    .qr-card {
+      background:
+        radial-gradient(circle at top right, rgba(132,207,53,0.20), transparent 28%),
+        linear-gradient(180deg, #ffffff, #f4faf0);
+      border: 2px solid rgba(132,207,53,0.55);
+      border-radius: 24px;
+      padding: 20px 18px;
+      text-align: center;
+      box-shadow: 0 14px 30px rgba(0,0,0,0.10);
+    }
+
+    .qr-card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      color: var(--black);
+      font-weight: 900;
+    }
+
+    .qr-card p {
+      margin: 0 auto 16px;
+      max-width: 330px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #4b5563;
+      font-weight: 700;
+    }
+
+    .qr-frame {
+      width: 230px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 12px;
+      border-radius: 20px;
+      background: #ffffff;
+      border: 3px solid var(--black);
+      box-shadow: 0 12px 26px rgba(0,0,0,0.16);
+    }
+
+    .qr-image {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
+      object-fit: contain;
+    }
+
+    .qr-note {
+      margin-top: 12px;
+      font-size: 12px;
+      color: var(--green-dark);
+      font-weight: 900;
+    }
+
     .footer {
       text-align: center;
       padding: 0 18px 30px;
@@ -607,6 +663,10 @@
 
       .circle-btn {
         font-size: 9.8px;
+      }
+
+      .qr-frame {
+        width: 215px;
       }
 
       h1 {
@@ -776,6 +836,23 @@
           </svg>
           Call +30 697 603 9617
         </a>
+      </div>
+    </section>
+
+    <section class="qr-section">
+      <div class="qr-card">
+        <h2>Σκάναρε το barcode</h2>
+        <p>
+          Σκάναρε τον κωδικό για άμεση πρόσβαση στο ψηφιακό προφίλ της LoveToPrint.
+        </p>
+
+        <div class="qr-frame">
+          <img src="qrcode%20%283%29.jpeg" alt="LoveToPrint QR Code" class="qr-image">
+        </div>
+
+        <div class="qr-note">
+          LoveToPrint Digital Card
+        </div>
       </div>
     </section>
 
